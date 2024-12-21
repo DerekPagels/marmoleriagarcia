@@ -1,3 +1,76 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 .navbar-brand img {
     width: 40px;
+}
+
+#carrousel {
+    max-width: 360px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    flex-wrap: nowrap;
+}
+
+.navbar {
+    background-image: url('/assets/img/textures/marble_navbar.webp');
+    background-size: 20%;
+    background-repeat: repeat;
+    font-family: Merriweather, serif;
+}
+
+.navbar-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    background-color: gray;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+}
+
+.nav-item {
+    white-space: nowrap;
+}
+
+/* Fuentes y tipografías */
+
+#titulo{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+article {
+    font-family: Merriweather, serif;
+    font-size: large;
+}
+
+.navbar-brand span {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+footer {
+    background-image: url('/assets/img/textures/marble_navbar.webp');
+    background-size: 20%;
+    background-repeat: repeat;
+    font-family: Merriweather, serif;
+    margin: 0;
 }
