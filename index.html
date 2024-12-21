@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,37 +11,68 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-              <li>
-                <a class="navbar-brand" href="/">
-                  <img src="assets/img/logo-temp.svg" alt="Logo Marmolería García" class="rounded-pill">
-                  <span>Marmolería García</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/sobrenosotros.html">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/obras.html">Portafolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="assets/img/logo-temp.svg" alt="Logo Marmolería García" class="rounded-pill">
+                <span>Marmolería García</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sobrenosotros.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/obras.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="container-fluid pt-5 text-center">
-        <!-- Tarea: Cambiar por logo principal -->
-        <h1>Marmolería García</h1>
-        <h2>Con usted desde 1936</h2>
-        <article class="text-start p-5">
-            <p>Nuestra marmolería ha esculpido la historia de Magallanes en mármol desde 1936. Cada pieza que creamos es un testimonio de nuestra pasión por el arte y la tradición. Nuestra trayectoria nos respalda, y nuestras obras, presentes en el icónico Cementerio Sara Braun, son un claro ejemplo de nuestra dedicación a embellecer la ciudad.</p>
-            <p>Ofrecemos servicios de mantención y restauración, asegurando que la belleza de tus piezas perdure a través del tiempo. Nuestra experiencia y versatilidad nos permiten adaptarnos a cualquier proyecto, desde las más clásicas creaciones hasta los diseños más contemporáneos.</p>
-            <p>Con más de 80 años de experiencia, nuestra marmolería ha sido testigo del paso del tiempo, dejando una huella imborrable en cada obra. Mantenemos una reputación sólida basada en la calidad de nuestros materiales, la excelencia de nuestros acabados y la confiabilidad de nuestros servicios.</p>
-            <p></p>
-        </article>
+    <div id="container-main" class="container-fluid row justify-content-center align-items-center pt-5 text-center">
+        <div class="col-md-7">
+            <div id="titulo">
+                <h1>Marmolería García</h1>
+                <h2>Con usted desde 1936</h2>
+            </div>
+            <article class="text-start p-5">
+                <p>Nuestra marmolería ha esculpido la historia de Magallanes en mármol desde 1936. Cada pieza que creamos es un testimonio de nuestra pasión por el arte y la tradición. Nuestra trayectoria nos respalda, y nuestras obras, presentes en el icónico Cementerio Sara Braun, son un claro ejemplo de nuestra dedicación a embellecer la ciudad.</p>
+                <p>Ofrecemos servicios de mantención y restauración, asegurando que la belleza de tus piezas perdure a través del tiempo. Nuestra experiencia y versatilidad nos permiten adaptarnos a cualquier proyecto, desde las más clásicas creaciones hasta los diseños más contemporáneos.</p>
+                <p>Con más de 80 años de experiencia, nuestra marmolería ha sido testigo del paso del tiempo, dejando una huella imborrable en cada obra. Mantenemos una reputación sólida basada en la calidad de nuestros materiales, la excelencia de nuestros acabados y la confiabilidad de nuestros servicios.</p>
+            </article>
+        </div>
+        <div id="carrousel" class="col-md-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <!-- Indicadores del carrusel -->
+                    <!-- ...existing code... -->
+                </div>
+                <div class="carousel-inner">
+                    <!-- Imágenes del carrusel -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+           </div>
+        </div>
     </div>
+</div>
+<footer>
+    <div class="container text-center">
+        © 2024 Marmolería García. Todos los derechos reservados.
+    </div>
+</footer>
 </body>
+<script src="assets/js/carrousel.js"></script>
 </html>
