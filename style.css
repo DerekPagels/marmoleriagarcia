@@ -77,6 +77,11 @@
     color: white;
 }
 
+#mapa-google {
+    width: 100%;
+    height: 450px;
+}
+
 /* Fuentes y tipografías */
 
 p {
